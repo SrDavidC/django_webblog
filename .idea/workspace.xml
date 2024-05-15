@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: init commit for about page">
-      <change afterPath="$PROJECT_DIR$/djangoProject/static/cascada.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProject/static/moto.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProject/static/surfing.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProject/static/vista-montana.jpeg" afterDir="false" />
+    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: finished about page">
       <change afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715788917736</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: finished about page">
+      <option name="closed" value="true" />
+      <created>1715792266975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715792266975</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +229,7 @@
     <MESSAGE value="feat: init commit for resume.html" />
     <MESSAGE value="feat: added resume.html page and view" />
     <MESSAGE value="feat: init commit for about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init commit for about page" />
+    <MESSAGE value="feat: finished about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finished about page" />
   </component>
 </project>
