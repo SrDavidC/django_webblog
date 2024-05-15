@@ -29,4 +29,51 @@
 html {
     font-family: var(--font-family-default), serif;
 }
+footer {
+    background-color: var(--black-neutro);
+
+}
+a {
+    text-decoration: none;
+    color: var(--white-neutro);
+}
+.about-section {
+    background-image: url("./montana.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-box {
+    background-color: rgba(45, 42, 42, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: var(--white-neutro);
+}
+.image-section {
+    padding: 100px 0;
+}
+
+.content-box {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-placeholder {
+    background-image: url("./motocross.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 10px;
+}
+
+
+
+
 
