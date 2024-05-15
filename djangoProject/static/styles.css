@@ -21,3 +21,12 @@
 .nav-link {
     color: var(--white-neutro);
 }
+.profile-img {
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+}
+html {
+    font-family: var(--font-family-default), serif;
+}
+
