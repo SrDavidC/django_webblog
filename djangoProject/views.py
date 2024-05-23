@@ -15,3 +15,7 @@ def about(request):
 
 def blog(request):
     return render(request, 'blog.html')
+
+
+def message_form(request):
+    return render(request, 'send_message.html')

@@ -25,5 +25,6 @@ urlpatterns = [
     path("resume", views.resume, name="resume"),
     path("about", views.about, name="about"),
     path("blog", views.blog, name="blog"),
+    path("send-message", views.message_form, name="send-message")
     
 ]
