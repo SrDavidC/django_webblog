@@ -18,13 +18,15 @@ from django.contrib import admin
 from django.urls import path
 
 from . import views
+from .views import blog_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.index, name="index"),
     path("resume", views.resume, name="resume"),
     path("about", views.about, name="about"),
-    path("blog", views.blog, name="blog"),
-    path("send-message", views.message_form, name="send-message")
+    #path("blog", views.blog, name="blog"),
+    path("send-message", views.message_form, name="send-message"),
+    path('blog/', blog_list, name='blog_list'),
     
 ]

@@ -1,5 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
+from BlogWebApp.models import BlogPost
+
 
 def index(request):
     return render(request, 'index.html')
@@ -19,3 +21,8 @@ def blog(request):
 
 def message_form(request):
     return render(request, 'send_message.html')
+
+
+def blog_list(request):
+    posts = BlogPost.objects.all()
+    return render(request, 'blog.html', {'posts': posts})

@@ -18,3 +18,6 @@ class BlogPost(models.Model):
     categories = models.TextField() # Could be text field separated by comma: academic, biological, vacations or with foreign key.
     publicationDate = models.DateField
 
+    def __str__(self):
+        return self.title
+

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: init commit for emails">
+    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="fix: changed timezones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogWebApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebApp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogWebApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,6 @@
     "Django Server.djangoProject.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/XPC_DC/PycharmProjects/djangoProject/djangoProject/static",
@@ -128,7 +127,7 @@
       <workItem from="1715735559996" duration="350000" />
       <workItem from="1715735923885" duration="142000" />
       <workItem from="1716406107322" duration="2578000" />
-      <workItem from="1716501353990" duration="5711000" />
+      <workItem from="1716501353990" duration="6821000" />
     </task>
     <task id="LOCAL-00001" summary="feat: se agrega avatar.jpeg">
       <option name="closed" value="true" />
@@ -298,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716508748420</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: added Model for BlogPost">
+      <option name="closed" value="true" />
+      <created>1716509873637</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716509873637</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: added sample data for web blog posts">
+      <option name="closed" value="true" />
+      <created>1716510037973</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716510037973</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix: changed timezones">
+      <option name="closed" value="true" />
+      <created>1716510048853</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716510048853</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +348,9 @@
     <MESSAGE value="fix: refactor on enviroment distribution and Message model completed" />
     <MESSAGE value="feat: added BlogWebbApp" />
     <MESSAGE value="feat: init commit for emails" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init commit for emails" />
+    <MESSAGE value="feat: added Model for BlogPost" />
+    <MESSAGE value="feat: added sample data for web blog posts" />
+    <MESSAGE value="fix: changed timezones" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: changed timezones" />
   </component>
 </project>
