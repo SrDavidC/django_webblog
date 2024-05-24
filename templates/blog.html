@@ -12,7 +12,7 @@
                     <p class="card-text">{{ post.preview_text }}</p>
                     <p>Reading time: {{ post.readingTimeInMinutes }} minutes</p>
                     <p>Categories: {{ post.categories }}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h2><a href="{% url 'specific-blog' post.id %}">Check here the complete post</a></h2>
                     <p>Published on: {{ post.publicationDate|date:"F d, Y" }}</p>
                 </div>
             </div>

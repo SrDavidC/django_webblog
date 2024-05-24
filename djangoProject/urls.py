@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 from . import views
-from .views import blog_list
+from .views import blog_list, specific_post
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +28,6 @@ urlpatterns = [
     #path("blog", views.blog, name="blog"),
     path("send-message", views.message_form, name="send-message"),
     path('blog/', blog_list, name='blog_list'),
+    path('blog/<int:post_id>/', specific_post, name='specific-blog' )
     
 ]

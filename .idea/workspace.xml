@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: BlogPost now has field for large text">
-      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="fix: added likesCount and author as attributes in BlogPost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogWebApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <workItem from="1715735559996" duration="350000" />
       <workItem from="1715735923885" duration="142000" />
       <workItem from="1716406107322" duration="2578000" />
-      <workItem from="1716501353990" duration="8506000" />
+      <workItem from="1716501353990" duration="9660000" />
     </task>
     <task id="LOCAL-00001" summary="feat: se agrega avatar.jpeg">
       <option name="closed" value="true" />
@@ -344,14 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716511507234</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix: added likesCount and author as attributes in BlogPost">
+      <option name="closed" value="true" />
+      <created>1716523019685</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716523019685</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: now we have base.html as base template for all htmls" />
     <MESSAGE value="feat: added bootstrap library" />
     <MESSAGE value="feat: init commit for index.html" />
     <MESSAGE value="feat: added setting to load static files" />
@@ -376,6 +384,7 @@
     <MESSAGE value="feat: now the blogs could be viewed from db on /blog" />
     <MESSAGE value="feat: added blog entries as boostrap cards" />
     <MESSAGE value="feat: BlogPost now has field for large text" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: BlogPost now has field for large text" />
+    <MESSAGE value="fix: added likesCount and author as attributes in BlogPost" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: added likesCount and author as attributes in BlogPost" />
   </component>
 </project>

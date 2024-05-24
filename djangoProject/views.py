@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, get_object_or_404
 
 from BlogWebApp.models import BlogPost
 
@@ -26,3 +26,9 @@ def message_form(request):
 def blog_list(request):
     posts = BlogPost.objects.all()
     return render(request, 'blog.html', {'posts': posts})
+
+
+def specific_post(request, post_id):
+    post = get_object_or_404(BlogPost, id=post_id)
+    return render(request, 'post.html', {'post' : post})
+
