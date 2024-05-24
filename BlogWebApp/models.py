@@ -14,6 +14,7 @@ class BlogPost(models.Model):
     title = models.CharField(max_length=50)
     thumbnail_url = models.URLField()
     preview_text = models.TextField()
+    text = models.TextField(default="")
     readingTimeInMinutes = models.IntegerField()
     categories = models.TextField() # Could be text field separated by comma: academic, biological, vacations or with foreign key.
     publicationDate = models.DateField
