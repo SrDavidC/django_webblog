@@ -3,15 +3,18 @@
 {% block title %} Blog {% endblock %}
 
 {% block content %}
-    <div class="container">
+    <div class="container text-center align-center justify-content-center m-5 p-10">
         {% for post in posts %}
-            <div class="blog-post">
-                <h2>{{ post.title }}</h2>
+            <div class="card blog-post" style="width: 54rem;">
                 <img src="{{ post.thumbnail_url }}" alt="{{ post.title }} thumbnail">
-                <p>{{ post.preview_text }}</p>
-                <p>Reading time: {{ post.readingTimeInMinutes }} minutes</p>
-                <p>Categories: {{ post.categories }}</p>
-                <p>Published on: {{ post.publicationDate }}</p>
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text">{{ post.preview_text }}</p>
+                    <p>Reading time: {{ post.readingTimeInMinutes }} minutes</p>
+                    <p>Categories: {{ post.categories }}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p>Published on: {{ post.publicationDate|date:"F d, Y" }}</p>
+                </div>
             </div>
         {% endfor %}
     </div>
