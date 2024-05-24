@@ -128,3 +128,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 DEFAULT_BLOGGER_EMAIL='david.30cerdas@gmail.com'
+DEFAULT_BLOG_AUTHOR="BRILLY"

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: now the blogs could be viewed from db on /blog">
+    <list default="true" id="8b1b6464-4c7f-4f21-af2f-90346860c0c9" name="Changes" comment="feat: BlogPost now has field for large text">
+      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogWebApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogWebApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -125,7 +126,7 @@
       <workItem from="1715735559996" duration="350000" />
       <workItem from="1715735923885" duration="142000" />
       <workItem from="1716406107322" duration="2578000" />
-      <workItem from="1716501353990" duration="7446000" />
+      <workItem from="1716501353990" duration="8506000" />
     </task>
     <task id="LOCAL-00001" summary="feat: se agrega avatar.jpeg">
       <option name="closed" value="true" />
@@ -327,14 +328,29 @@
       <option name="project" value="LOCAL" />
       <updated>1716510729429</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: added blog entries as boostrap cards">
+      <option name="closed" value="true" />
+      <created>1716511485967</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716511485967</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: BlogPost now has field for large text">
+      <option name="closed" value="true" />
+      <created>1716511507234</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716511507234</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: se agrega avatar.jpeg" />
     <MESSAGE value="feat: now we have base.html as base template for all htmls" />
     <MESSAGE value="feat: added bootstrap library" />
     <MESSAGE value="feat: init commit for index.html" />
@@ -358,6 +374,8 @@
     <MESSAGE value="feat: added sample data for web blog posts" />
     <MESSAGE value="fix: changed timezones" />
     <MESSAGE value="feat: now the blogs could be viewed from db on /blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: now the blogs could be viewed from db on /blog" />
+    <MESSAGE value="feat: added blog entries as boostrap cards" />
+    <MESSAGE value="feat: BlogPost now has field for large text" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: BlogPost now has field for large text" />
   </component>
 </project>

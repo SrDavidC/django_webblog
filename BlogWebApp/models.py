@@ -1,5 +1,7 @@
 from django.db import models;
 
+from djangoProject import settings
+
 
 class Message(models.Model):
     personName = models.CharField(max_length=50)
@@ -18,6 +20,8 @@ class BlogPost(models.Model):
     readingTimeInMinutes = models.IntegerField()
     categories = models.TextField() # Could be text field separated by comma: academic, biological, vacations or with foreign key.
     publicationDate = models.DateField
+    author = models.CharField(max_length=50, default=settings.DEFAULT_BLOG_AUTHOR)
+    likesCount = models.IntegerField(default=0)
 
     def __str__(self):
         return self.title
