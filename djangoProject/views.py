@@ -30,5 +30,7 @@ def blog_list(request):
 
 def specific_post(request, post_id):
     post = get_object_or_404(BlogPost, id=post_id)
-    return render(request, 'post.html', {'post' : post})
+    comments = post.comments.all()
+    categories = post.categories.all()
+    return render(request, 'post.html', {'post' : post, 'comments': comments, 'categories': categories})
 

@@ -1,3 +1,5 @@
+from datetime import date
+
 from django.db import models;
 
 from djangoProject import settings
@@ -18,11 +20,20 @@ class BlogPost(models.Model):
     preview_text = models.TextField()
     text = models.TextField(default="")
     readingTimeInMinutes = models.IntegerField()
-    categories = models.TextField() # Could be text field separated by comma: academic, biological, vacations or with foreign key.
-    publicationDate = models.DateField
+    publicationDate = models.DateField(default=date.today)
     author = models.CharField(max_length=50, default=settings.DEFAULT_BLOG_AUTHOR)
     likesCount = models.IntegerField(default=0)
 
     def __str__(self):
         return self.title
+class Comment(models.Model):
+    blog_post = models.ForeignKey(BlogPost, related_name='comments', on_delete=models.CASCADE)
+    author = models.CharField(max_length=50)
+    text = models.TextField()
+    created_date = models.DateTimeField(auto_now_add=True)
+
+class Category(models.Model):
+    blog_post = models.ForeignKey(BlogPost, related_name= 'categories', on_delete=models.CASCADE)
+    name = models.CharField(max_length=50)
+
 

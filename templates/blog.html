@@ -5,7 +5,7 @@
 {% block content %}
     <div class="container text-center align-center justify-content-center m-5 p-10">
         {% for post in posts %}
-            <div class="card blog-post" style="width: 54rem;">
+            <div class="card blog-post m-5" style="width: 54rem;">
                 <img src="{{ post.thumbnail_url }}" alt="{{ post.title }} thumbnail">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>
