@@ -3,6 +3,11 @@
 {% block title %} Blog {% endblock %}
 
 {% block content %}
+<div class="btn-group mb-3" role="group" aria-label="Filter using:">
+    <a href="{% url 'blog_list' %}?order_by=likes" class="btn btn-primary">Relevancy</a>
+    <a href="{% url 'blog_list' %}?order_by=publication_date" class="btn btn-primary">Published Date</a>
+</div>
+
     <div class="container text-center align-center justify-content-center m-5 p-10">
         {% for post in posts %}
             <div class="card blog-post m-5" style="width: 54rem;">

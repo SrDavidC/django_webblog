@@ -24,8 +24,17 @@ def message_form(request):
 
 
 def blog_list(request):
-    posts = BlogPost.objects.all()
+    order_by = request.GET.get('order_by')
+
+    if order_by == 'likes':
+        posts = BlogPost.objects.all().order_by('-likesCount')
+    elif order_by == 'publication_date':
+        posts = BlogPost.objects.all().order_by('-publicationDate')
+    else:
+        posts = BlogPost.objects.all()
+
     return render(request, 'blog.html', {'posts': posts})
+
 
 
 def specific_post(request, post_id):
